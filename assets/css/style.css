@@ -2420,4 +2420,16 @@ section.media-social .media-quote{
   .related-list{ grid-template-columns: 1fr; }
   .post-nav{ grid-template-columns: 1fr; }
 }
+/* FIX: matikan dropcap untuk paragraf di kartu kontak */
+.article-cards .article-card p::first-letter{
+  float: none !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.article-cards .article-card a{
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
